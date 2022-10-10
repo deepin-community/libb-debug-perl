@@ -1,0 +1,23 @@
+libb-debug-perl (1.26-2) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Helmut Grohne ]
+  * Mark libb-debug-perl Multi-Arch: foreign. (Closes: #952651)
+
+  [ gregor herrmann ]
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Drop unneded versioned (build) dependencies.
+  * Bump debhelper-compat to 12.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 26 Feb 2020 22:47:47 +0100
+
+libb-debug-perl (1.26-1) unstable; urgency=medium
+
+  * Initial release (closes: #898932).
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 17 May 2018 16:34:26 +0200
